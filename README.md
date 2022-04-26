@@ -1,6 +1,11 @@
 <div align="center"><img src="assets/logo.png" width="350"></div>
 <img src="assets/demo.png" >
 
+
+8.131   /ncnn/build/install . ./nxtest ./
+8.131   xx/wtYOLOX$ python tools/demo.py image   -f exps/example/nanyolox_voc/yoloxn_voc_s.py -c   YOLOX_outputs/yoloxn_voc_s/best_ckpt.pth.tar  --save  --path   15h14m33s071.png 
+
+
 ## Introduction
 YOLOX is an anchor-free version of YOLO, with a simpler design but better performance! It aims to bridge the gap between research and industrial communities.
 For more details, please refer to our [report on Arxiv](https://arxiv.org/abs/2107.08430).
